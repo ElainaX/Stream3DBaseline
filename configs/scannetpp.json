@@ -1,0 +1,10 @@
+{
+    "mask_visible_threshold": [0.3, 0.4],
+    "undersegment_filter_threshold": [0.3, 0.2],
+    "view_consensus_threshold": [0.9, 1],
+    "contained_threshold": [0.8, 0.9],
+    "point_filter_threshold": [0.5, 0.7],
+    "dataset": "scannetpp",
+    "cropformer_path": "....../Stream3D/third_party/seg_models/Mask2Former_hornet_3x_576d0b.pth",
+    "step": [1, 2]
+}
